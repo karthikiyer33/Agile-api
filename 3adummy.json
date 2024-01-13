@@ -1,0 +1,95 @@
+[
+ {
+   "A": "Master Agreement Type:"
+ },
+ {
+   "A": "| Type ID | Valid From | Valid Until | Daily Rate Indicator | Deadline   | Team Deadline | Works Contract Deadline | Material Group   |"
+ },
+ {
+   "A": "|---------|------------|-------------|-----------------------|------------|---------------|--------------------------|------------------|"
+ },
+ {
+   "A": "| 1       | 2024-01-01 | 2024-12-31  | Yes                   | 2024-02-15 | 2024-02-28    | 2024-03-31               | Electronics      |"
+ },
+ {
+   "A": "| 2       | 2024-03-01 | 2024-12-31  | No                    | 2024-04-15 | 2024-04-30    | 2024-05-31               | Construction     |"
+ },
+ {
+   "A": "Provider:"
+ },
+ {
+   "A": "| Provider ID | Name              | Address                | Exists Since | Valid From | Valid Until | Master Agreement Types               |"
+ },
+ {
+   "A": "|-------------|-------------------|------------------------|--------------|------------|-------------|--------------------------------------|"
+ },
+ {
+   "A": "| 101         | ABC Solutions     | 123 Main St, City      | 2010-01-01   | 2024-01-01 | 2024-12-31  | Electronics, Construction            |"
+ },
+ {
+   "A": "| 102         | XYZ Suppliers     | 456 Oak St, Town       | 2005-05-15   | 2024-02-01 | 2024-12-31  | Electronics, Services                 |"
+ },
+ {
+   "A": "Material Group:"
+ },
+ {
+   "A": "| Group ID | Name           |"
+ },
+ {
+   "A": "|----------|----------------|"
+ },
+ {
+   "A": "| 501      | Electronics    |"
+ },
+ {
+   "A": "| 502      | Construction   |"
+ },
+ {
+   "A": "| 503      | Services        |"
+ },
+ {
+   "A": "Offer:"
+ },
+ {
+   "A": "| Offer ID | Provider ID | Master Agreement Type | Price   | Valid From | Valid Until |"
+ },
+ {
+   "A": "|----------|-------------|------------------------|---------|------------|-------------|"
+ },
+ {
+   "A": "| 201      | 101         | 1                      | $1000   | 2024-02-01 | 2024-03-01  |"
+ },
+ {
+   "A": "| 202      | 102         | 2                      | $800    | 2024-02-15 | 2024-03-15  |"
+ },
+ {
+   "A": "Provider Evaluation:"
+ },
+ {
+   "A": "| Provider ID | Evaluation Scale (1-10) |"
+ },
+ {
+   "A": "|-------------|--------------------------|"
+ },
+ {
+   "A": "| 101         | 8                        |"
+ },
+ {
+   "A": "| 102         | 9                        |"
+ },
+ {
+   "A": "Provider Quality Measures:"
+ },
+ {
+   "A": "| Provider ID | Measure                   |"
+ },
+ {
+   "A": "|-------------|---------------------------|"
+ },
+ {
+   "A": "| 101         | Timely Deliveries         |"
+ },
+ {
+   "A": "| 102         | Excellent Communication  |"
+ }
+]
